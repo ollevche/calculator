@@ -8,7 +8,7 @@ func Sub(a, b int) int {
 	return a - b
 }
 
-func Divide(a, b int) (int, bool) {
+func Divide(a, b float64) (float64, bool) {
 	if b == 0 {
 		return 0, false
 	}
