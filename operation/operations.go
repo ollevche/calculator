@@ -8,7 +8,8 @@ func Sub(a, b int) int {
 	return a - b
 }
 
-func Divide(a, b int) int {
+// Divide will panic if enounters division by zero.
+func Divide(a, b float64) float64 {
 	return a / b
 }
 
